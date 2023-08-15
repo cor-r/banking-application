@@ -1,16 +1,14 @@
 import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
 public class BankingSystemSimulationTest {
-
     private Account account;
 
     @Before
     public void setup() {
-
         account = new Account(1000, "John Doe", 1000.0);
-
     }
 
     @Test
@@ -27,7 +25,6 @@ public class BankingSystemSimulationTest {
 
     @Test
     public void testWithdrawInsufficientBalance() {
-
         account.withdraw(2000);
         assertEquals(-1000.0, account.getBalance(), 0.001);
     }

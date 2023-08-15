@@ -12,6 +12,7 @@ class Bank {
 
     /**
      * Creates an account with holder name and starting balance.
+     *
      * @param accountHolderName
      * @param initialBalance
      */
@@ -24,6 +25,7 @@ class Bank {
 
     /**
      * Deposits given amount from given account number.
+     *
      * @param accountNumber
      * @param amount
      */
@@ -39,6 +41,7 @@ class Bank {
 
     /**
      * Withdraws given amount from given account number.
+     *
      * @param accountNumber
      * @param amount
      */
@@ -58,6 +61,7 @@ class Bank {
 
     /**
      * Retrieves the current balance of a given account.
+     *
      * @param accountNumber
      */
     public void getBalance(int accountNumber) {
